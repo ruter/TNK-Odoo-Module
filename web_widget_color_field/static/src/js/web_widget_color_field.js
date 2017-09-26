@@ -21,7 +21,7 @@ var ColorField = Column.extend({
                     });
                     field_val = sel[0][1];
                 } else if (this.type === "many2one") {
-                    field_val = row_data[this.id][1];
+                    field_val = row_data[this.id].value[1];
                 }
 
                 var cls, code;
