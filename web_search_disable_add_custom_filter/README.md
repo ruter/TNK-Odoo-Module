@@ -6,12 +6,12 @@ Hide menu item of add custom filter to disable user add custom filter.
 
 # Usage
 
-In the search view declaration, put `enable_custom_filters="false"` attribute in the `<search/>` tag:
+In the search view declaration, put `enable_custom_filter="false"` attribute in the `<search/>` tag:
 
 ```xml
 ...
 <field name="arch" type="xml">
-    <search string="View name">
+    <search string="View name" enable_custom_filter="false">
         ...
         <field name="no"/>
         <field name="name"/>
