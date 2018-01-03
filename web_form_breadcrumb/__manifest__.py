@@ -17,6 +17,9 @@
     'data': [
         'views/templates.xml',
     ],
+    'images': [
+        'description/banner.png'
+    ],
     'demo': [
     ],
 
