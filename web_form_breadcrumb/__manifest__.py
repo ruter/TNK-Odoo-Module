@@ -18,7 +18,7 @@
         'views/templates.xml',
     ],
     'images': [
-        'description/banner.png'
+        'static/description/banner.png'
     ],
     'demo': [
     ],
